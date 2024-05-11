@@ -1,9 +1,48 @@
+/*Esto es una grilla para toda la página. Mi idea es ir acomodando las cosas en base a esta grilla
+para poder guiarme con la grilla que tenemos en Figma y ubicar bien los elementos*/
+.grilla{
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3%;
+
+    /*Areas*/
+    /*Fijate que ocupan las mismas columnas que ocupan en el prototipo de figma*/
+    grid-template-areas: 
+    "header-area header-area header-area header-area header-area header-area header-area header-area header-area header-area header-area header-area"
+    ". . . . . . . portada-texto-area portada-texto-area portada-texto-area portada-texto-area ."
+    ". . descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area . . ."
+    "footer-area footer-area footer-area footer-area footer-area footer-area footer-area footer-area footer-area footer-area footer-area footer-area"
+    ;
+}
+
+/*Borde negro para el header y el footer*/
 header {
     border: 1px solid black;
     margin-top: 0;
+
+    /*Asigna el área del header al header*/
+    grid-area: header-area;
 }
 
 footer{
     border: 1px solid black;
     margin-bottom: 0;
+
+    /*Asigna el área del footer al footer*/
+    grid-area: footer-area;
+}
+
+.portada{
+    /*Asigna el área de la portada a la portada*/
+    grid-area: portada-texto-area;
+}
+
+.descripcion{
+    background-color: black;
+    color: white;
+
+    /*Asigna el área de la descripcion a la descripcion*/
+    grid-area: descripcion-area;
 }
