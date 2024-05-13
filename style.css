@@ -13,6 +13,8 @@ para poder guiarme con la grilla que tenemos en Figma y ubicar bien los elemento
     "header-area header-area header-area header-area header-area header-area header-area header-area header-area header-area header-area header-area"
     ". . . . . . . portada-texto-area portada-texto-area portada-texto-area portada-texto-area ."
     ". . descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area . . ."
+    ". autores-area autores-area autores-area autores-area autores-area . . . . . ."
+    ". reseñas-titulo-area reseñas-titulo-area reseñas-titulo-area reseñas-titulo-area reseñas-titulo-area . . . . . ."
     "footer-area footer-area footer-area footer-area footer-area footer-area footer-area footer-area footer-area footer-area footer-area footer-area"
     ;
 }
@@ -45,4 +47,15 @@ footer{
 
     /*Asigna el área de la descripcion a la descripcion*/
     grid-area: descripcion-area;
+}
+
+.autores-titulo{
+
+    
+    grid-area: autores-area;
+}
+
+.reseñas{
+
+    grid-area: reseñas-titulo-area;
 }
