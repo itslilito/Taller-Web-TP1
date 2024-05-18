@@ -58,4 +58,16 @@ footer{
 .reseñas{
 
     grid-area: reseñas-titulo-area;
+
 }
+
+/* intento d usar flexbox para hacer los bullets */
+.bullet{
+    
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+
+}
+
