@@ -12,7 +12,7 @@ para poder guiarme con la grilla que tenemos en Figma y ubicar bien los elemento
     grid-template-areas: 
     "header-area header-area header-area header-area header-area header-area header-area header-area header-area header-area header-area header-area"
     ". . . . . . . portada-texto-area portada-texto-area portada-texto-area portada-texto-area ."
-    ". . descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area . . ."
+    "descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area"
     ". autores-area autores-area autores-area autores-area autores-area . . . . . ."
     ". reseñas-titulo-area reseñas-titulo-area reseñas-titulo-area reseñas-titulo-area reseñas-titulo-area . . . . . ."
     ". reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area ."
@@ -42,9 +42,12 @@ footer{
     grid-area: portada-texto-area;
 }
 
+img {
+    
+    width: 100%;
+}
+
 .descripcion{
-    background-color: black;
-    color: white;
 
     /*Asigna el área de la descripcion a la descripcion*/
     grid-area: descripcion-area;
@@ -82,5 +85,10 @@ footer{
     margin-left: 50px;
     margin-right: 50px;
 
+}
+
+.bullet img{
+    
+    width: auto;
 }
 
