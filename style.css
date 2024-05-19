@@ -15,6 +15,7 @@ para poder guiarme con la grilla que tenemos en Figma y ubicar bien los elemento
     ". . descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area . . ."
     ". autores-area autores-area autores-area autores-area autores-area . . . . . ."
     ". reseñas-titulo-area reseñas-titulo-area reseñas-titulo-area reseñas-titulo-area reseñas-titulo-area . . . . . ."
+    ". reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area ."
     "footer-area footer-area footer-area footer-area footer-area footer-area footer-area footer-area footer-area footer-area footer-area footer-area"
     ;
 }
@@ -51,23 +52,35 @@ footer{
 
 .autores-titulo{
 
-    
+    /*Asigna el área de los autores al área de los autores*/
     grid-area: autores-area;
 }
 
 .reseñas{
 
     grid-area: reseñas-titulo-area;
+    margin-bottom: 31px;
 
+}
+
+.contenedor-bullets{
+
+    grid-area: reseñas-area;
+
+    margin-top: 31px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 /* intento d usar flexbox para hacer los bullets */
 .bullet{
     
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
 
 }
 
