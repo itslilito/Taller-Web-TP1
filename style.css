@@ -22,15 +22,28 @@ para poder guiarme con la grilla que tenemos en Figma y ubicar bien los elemento
 
 /*Borde negro para el header y el footer*/
 header {
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     margin-top: 0;
+
+    align-items: center;
 
     /*Asigna el área del header al header*/
     grid-area: header-area;
+
+    /*Flex para ubicar la imagen del header*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-header {
+    width: 100px;
+    height: 100px;
 }
 
 footer{
-    border: 1px solid black;
+    border-top: 1px solid black;
     margin-bottom: 0;
 
     /*Asigna el área del footer al footer*/
