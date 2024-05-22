@@ -1,3 +1,14 @@
+@font-face {
+    font-family: "OCR A Extended";
+    src: url(./fonts/OCR-A-Extended-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Gotham-normal";
+    src: url(./fonts/gotham/GothamBook.ttf);
+}
+
 /*Esto es una grilla para toda la página. Mi idea es ir acomodando las cosas en base a esta grilla
 para poder guiarme con la grilla que tenemos en Figma y ubicar bien los elementos*/
 .grilla{
@@ -20,6 +31,7 @@ para poder guiarme con la grilla que tenemos en Figma y ubicar bien los elemento
     ;
 }
 
+
 /*Borde negro para el header y el footer*/
 header {
     border-bottom: 1px solid black;
@@ -37,7 +49,7 @@ header {
     align-items: center;
 }
 
-.img-header {
+#img-header {
     width: 100px;
     height: 100px;
 }
@@ -48,6 +60,19 @@ footer{
 
     /*Asigna el área del footer al footer*/
     grid-area: footer-area;
+}
+
+#img-footer{
+    width: 100px;
+    height: 100px;
+}
+
+p{
+    font-family: "Gotham-normal";
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "OCR A Extended";
 }
 
 .portada{
