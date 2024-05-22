@@ -16,7 +16,7 @@ para poder guiarme con la grilla que tenemos en Figma y ubicar bien los elemento
     height: 100%;
 
     display: grid;
-    grid-template-columns: 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3% 8.3%;
+    grid-template-columns: 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33%;
 
     /*Areas*/
     /*Fijate que ocupan las mismas columnas que ocupan en el prototipo de figma*/
@@ -133,3 +133,30 @@ img {
     width: auto;
 }
 
+.grilla-form{
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33%;
+
+    grid-template-areas: 
+    ". . titulo-form titulo-form titulo-form titulo-form titulo-form titulo-form titulo-form titulo-form . ."
+    ;
+
+}
+
+.form{
+    background-color: black;
+    background-image: url(./imgs/formBG1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.form h1{
+    grid-area: titulo-form;
+
+    color: white;
+    text-size-adjust: 52px;
+
+}
