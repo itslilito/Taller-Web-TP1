@@ -93,6 +93,10 @@ h2, h4, h5, h6{
     margin-left: 58.33%;
 }
 
+.portada h1{
+    margin-top: 200px;
+}
+
 #imagen-libro-portada-desktop{
     float: left;
     width: auto;
