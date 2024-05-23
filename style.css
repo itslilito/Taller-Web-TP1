@@ -89,8 +89,14 @@ h2, h4, h5, h6{
     background-repeat: no-repeat;
 }
 
+.portada h1, .portada h3{
+    margin-left: 58.33%;
+}
+
 #imagen-libro-portada-desktop{
+    float: left;
     width: auto;
+    margin-left: 8.33%;
 }
 
 /*muestra las imágenes en el 100% de la pantalla*/
