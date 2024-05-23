@@ -22,7 +22,7 @@ para poder guiarme con la grilla que tenemos en Figma y ubicar bien los elemento
     /*Fijate que ocupan las mismas columnas que ocupan en el prototipo de figma*/
     grid-template-areas: 
     "header-area header-area header-area header-area header-area header-area header-area header-area header-area header-area header-area header-area"
-    ". . . . . . . portada-texto-area portada-texto-area portada-texto-area portada-texto-area ."
+    "portada-texto-area portada-texto-area portada-texto-area portada-texto-area portada-texto-area portada-texto-area portada-texto-area portada-texto-area portada-texto-area portada-texto-area portada-texto-area portada-texto-area"
     "descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area"
     ". autores-area autores-area autores-area autores-area autores-area . . . . . ."
     ". reseñas-titulo-area reseñas-titulo-area reseñas-titulo-area reseñas-titulo-area reseñas-titulo-area . . . . . ."
@@ -67,17 +67,30 @@ footer{
     height: 100px;
 }
 
-p{
+p, h3{
     font-family: "Gotham-normal";
 }
 
-h1, h2, h3, h4, h5, h6{
+h1{
+    font-family: "OCR A Extended";
+    font-size: 52px;
+}
+
+h2, h4, h5, h6{
     font-family: "OCR A Extended";
 }
 
 .portada{
     /*Asigna el área de la portada a la portada*/
     grid-area: portada-texto-area;
+
+    background-image: url(./imgs/deco\ landing.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#imagen-libro-portada-desktop{
+    width: auto;
 }
 
 /*muestra las imágenes en el 100% de la pantalla*/
