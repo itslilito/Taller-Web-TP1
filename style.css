@@ -146,14 +146,16 @@ img {
 
 }
 
-.form{
+.c-form{
     background-color: black;
     background-image: url(./imgs/formBG1.png);
     background-size: 100%;
     background-repeat: no-repeat;
+
+    color: white;
 }
 
-.form h1{
+.c-form h1{
     grid-area: titulo-form;
 
     color: white;

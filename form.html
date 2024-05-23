@@ -1,14 +1,33 @@
-<html class="form">
+<html class="c-form">
     <head>
-        <!--Título de la pestaña-->
-        <title>Leé "Sombreros de Aluminio" - El Gato y la Caja</title>
+         <!--Título de la pestaña-->
+         <title>Leé "Sombreros de Aluminio" - El Gato y la Caja</title>
 
-        <!--Vinculación con la stylesheet (style.css)-->
-        <link rel="stylesheet" href="style.css">
+         <!--Vinculación con la stylesheet (style.css)-->
+         <link rel="stylesheet" href="style.css">
     </head>
 
 
     <body class="grilla-form">
-        <h1>Estás a un paso de adentrarte en lo desconocido</h1>
+         <!--Título-->
+         <h1>Estás a un paso de adentrarte en lo desconocido</h1>
+
+         <!--Subtítulo-->
+
+         <!--Formulario-->
+         <form>
+             <!--Nombre del usuario-->
+             <label for="nombre">Nombre:</label>
+             <input type="text" name="nombre" id="nombre" placeholder="Juan Gato" required="True">
+
+             <!--Mail del usuario-->
+             <label for="mail">E-mail:</label>
+             <input type="email" name="mail" id="mail" placeholder="algunmail@gmail.com" required="True">
+
+             <!--Botón de enviar-->
+             <input type="submit" value="Descargar el libro">
+         </form>
     </body>
+
+    
 </html>
