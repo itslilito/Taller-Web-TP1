@@ -29,6 +29,7 @@ para poder guiarme con la grilla que tenemos en Figma y ubicar bien los elemento
     ". reseñas-titulo-area reseñas-titulo-area reseñas-titulo-area reseñas-titulo-area reseñas-titulo-area . . . . . ."
     ". reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area ."
     ". form-final-t form-final-t form-final-t form-final-t form-final-t form-final-t form-final-t form-final-t form-final-t form-final-t ."
+    ".  contenido-form-final contenido-form-final contenido-form-final contenido-form-final contenido-form-final contenido-form-final contenido-form-final contenido-form-final contenido-form-final contenido-form-final ."
     "footer-area footer-area footer-area footer-area footer-area footer-area footer-area footer-area footer-area footer-area footer-area footer-area"
     ;
 }
@@ -219,6 +220,14 @@ img {
 
 .form-final{
     grid-area: form-final-t;
+}
+
+.contenido-form-final{
+    grid-area: contenido-form-final;
+}
+
+#mail-p-principal{
+    border: 2px;
 }
 
 .grilla-form{
