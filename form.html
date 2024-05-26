@@ -9,20 +9,26 @@
 
 
     <body class="grilla-form">
+         <!--Flechita para volver atrás-->
+         <img src="./imgs/backwhitedesktop.png" id="flechita" alt="Volver">
+         
+
          <!--Título-->
          <h1>Estás a un paso de adentrarte en lo desconocido</h1>
 
          <!--Subtítulo-->
+         <h3>Solo dejanos tu nombre y correo para recibir el PDF.</h3>
 
          <!--Formulario-->
          <form>
              <!--Nombre del usuario-->
-             <label for="nombre">Nombre:</label>
-             <input type="text" name="nombre" id="nombre" placeholder="Juan Gato" required="True">
+             <input type="text" name="nombre" id="nombre" placeholder="Nombre" required="True">
 
              <!--Mail del usuario-->
-             <label for="mail">E-mail:</label>
-             <input type="email" name="mail" id="mail" placeholder="algunmail@gmail.com" required="True">
+             <input type="email" name="mail" id="mail" placeholder="E-Mail" required="True">
+
+             <!--Confirmar el mail-->
+             <input type="email" name="c-mail" id="c-mail" placeholder="Confirmación del e-mail" required="True">
 
              <!--Botón de enviar-->
              <input type="submit" value="Descargar el libro">
