@@ -385,3 +385,45 @@ img {
     color: white;
     font-family: "OCR A Extended";
 }
+
+.agradecimiento{
+    display: grid;
+    grid-template-columns: 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33%;
+
+    grid-template-areas: ". contenido contenido contenido contenido contenido contenido contenido contenido contenido contenido .";
+}
+
+.agradecimiento h1, h2{
+    text-align: center;
+    align-items: center;
+}
+
+.agradecimiento h2{
+    font-family: "Gotham-Normal";
+    font-size: 32px;
+    max-width: 590px;
+}
+#cato{
+    width: 590px;
+}
+
+#deco{
+    height: 820px;
+    width: 100px;
+}
+
+.contenedor-agradecimiento{
+    grid-area: contenido;
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.item-agradecimiento{
+    
+    margin-inline-end: 200px;
+}
