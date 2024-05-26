@@ -111,7 +111,12 @@ h2, h4, h5, h6{
     max-width: 466px;
 }
 
-#cta{
+.portada .cta{
+    
+    margin-top: 290px;
+}
+
+.cta{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -121,7 +126,6 @@ h2, h4, h5, h6{
     color: white;
     font-weight: 300;
     padding: 10px;
-    margin-top: 290px;
 }
 
 #imagen-libro-portada-desktop{
@@ -224,10 +228,26 @@ img {
 
 .contenido-form-final{
     grid-area: contenido-form-final;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-direction: row;
+
+    margin-bottom: 61px;
 }
 
 #mail-p-principal{
-    border: 2px;
+    border-bottom: 3px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    font-family: "Gotham-normal";
+    font-size: 40px;
+
+    padding-right: 680px;
+    padding-bottom: 10px;
 }
 
 .grilla-form{
