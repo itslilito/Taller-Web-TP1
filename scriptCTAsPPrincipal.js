@@ -9,6 +9,7 @@ cta_mobile_inicial.addEventListener("click", pasarAForm);
 cta_mobile_final.addEventListener("click", pasarAForm);
 
 function pasarAForm (event){
+    event.preventDefault();
     window.location.href = "./form.html";
 }
 
