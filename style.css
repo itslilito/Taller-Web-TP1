@@ -566,6 +566,7 @@ img {
         padding-right: 110px;
         padding-top: 30px;
         padding-bottom: 30px;
+        color: white;
     }
 
     #imagen-libro-portada-mobile{
@@ -635,7 +636,7 @@ img {
 
     #cta-m-f{
         grid-area: cta-m-f;
-    
+        margin-left: none;
     }
 
     #mail-p-principal{
@@ -658,9 +659,7 @@ img {
 
        grid-template-areas: 
         "h-form h-form h-form h-form h-form h-form h-form h-form h-form h-form h-form h-form"
-        ". . titulo-form titulo-form titulo-form titulo-form titulo-form titulo-form titulo-form titulo-form . ."
-        ". . subtitulo-form subtitulo-form subtitulo-form subtitulo-form subtitulo-form subtitulo-form subtitulo-form subtitulo-form . ."
-        ". . form form form form form . . . . ."
+        ". form-d form-d form-d form-d form-d form-d form-d form-d . . ."
     ;
 
     }
@@ -687,7 +686,58 @@ img {
         margin-left: 50px;
     }
 
+    .m-form-deco{
+        margin-top: 400%;
+        margin-left: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 
+    .MOBILE input{
+        padding: 30px;
+    }
+
+    .MOBILE input[type="submit"]{
+        margin-top: 100px;
+    }
+
+    .MOBILE input[type="text"]{
+        border: none;
+        border-bottom: 4px solid black;
+        background-color: white;
+    }
+
+    .MOBILE input[type="email"]{
+        border: none;
+        border-bottom: 4px solid black;
+        background-color: white;
+    }
+
+    .MOBILE input::placeholder{
+        background-color: white;
+    }
+
+    .MOBILE .item-form-mobile h1,h3{
+        color: black;
+        text-align: left;
+        width: 770px;
+    }
+    .MOBILE h3{
+        font-size: 40px;
+        width: 770px;
+    }
+
+    #deco-form-mobile{
+        margin-left: 950%;
+    }
+
+    #deco{
+        display: none;
+    }
+
+    .item-agradecimiento{
+        justify-self: center;
+    }
 }
 
 @media screen and (min-width: 1001px) {
