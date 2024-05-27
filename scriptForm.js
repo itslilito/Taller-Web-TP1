@@ -9,15 +9,17 @@ flechita_atras.addEventListener("click",volverAtras);
 
 function guardarContenido(event){
     event.preventDefault();
-    console.log("hice click");
 
     var valor_nombre = input_nombre.value;
     
-    window.location.href = "./agradecimiento.html";
+    window.valorPasado=valor_nombre;
+    window.location.href= "./agradecimiento.html?valor_nombre" + valor_nombre;
+    //window.location.href = "./agradecimiento.html";
 
     console.log(valor_nombre);
 }
 
 function volverAtras(event){
     window.location.href = "./index.html";
+
 }

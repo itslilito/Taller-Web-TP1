@@ -427,3 +427,85 @@ img {
     
     margin-inline-end: 200px;
 }
+
+@media screen and (max-width: 1000px){
+    .body{
+        width: 100%;
+    }
+
+    #DESKTOP{
+        display: none !important;
+    }
+    
+
+    .grilla-mobile{
+        width: 100%;
+        height: 100%;
+    
+        display: grid;
+        grid-template-columns: 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33% 8.33%;
+    
+        /*Areas*/
+        /*Fijate que ocupan las mismas columnas que ocupan en el prototipo de figma*/
+        grid-template-areas: 
+        "header-area header-area header-area header-area header-area header-area header-area header-area header-area header-area header-area header-area"
+        "portada-texto-area portada-texto-area portada-texto-area portada-texto-area portada-texto-area portada-texto-area portada-texto-area portada-texto-area portada-texto-area portada-texto-area portada-texto-area portada-texto-area"
+        "descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area"
+        ". autores-area autores-area autores-area autores-area autores-area . . . . . ."
+        ". autores-area2 autores-area2 autores-area2 autores-area2 autores-area2 autores-area2 autores-area2 autores-area2 autores-area2 autores-area2 ."
+        ". reseñas-titulo-area reseñas-titulo-area reseñas-titulo-area reseñas-titulo-area reseñas-titulo-area . . . . . ."
+        ". reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area ."
+        ". form-final-t form-final-t form-final-t form-final-t form-final-t form-final-t form-final-t form-final-t form-final-t form-final-t ."
+        ".  contenido-form-final contenido-form-final contenido-form-final contenido-form-final contenido-form-final contenido-form-final contenido-form-final contenido-form-final contenido-form-final contenido-form-final ."
+        "footer-area footer-area footer-area footer-area footer-area footer-area footer-area footer-area footer-area footer-area footer-area footer-area"
+        ;
+    }
+
+    header{
+        margin: 0px;
+        padding: 0px;
+        height: 200px;
+
+        border-bottom: 4px solid black;
+    }
+
+    #img-header{
+        grid-area: header-area;
+        width: 200px;
+        height: 200px;
+        margin: 0px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .portada-mobile{
+        grid-area: portada-texto-area;
+
+        background-image: url(./imgs/decomobile.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    #imagen-libro-portada-mobile{
+        width: auto;
+    }
+
+    
+}
+
+@media screen and (min-width: 1001px) {
+    .body{
+        width: 100%;
+    }
+
+    #MOBILE{
+        display: none !important;
+    }
+    
+}
