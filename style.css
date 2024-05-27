@@ -737,6 +737,13 @@ img {
 
     .item-agradecimiento{
         justify-self: center;
+
+        margin-inline-end: none;
+        margin-left: 12.66%;
+    }
+
+    #borrar{
+        display: none;
     }
 }
 
