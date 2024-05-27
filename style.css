@@ -462,13 +462,12 @@ img {
     }
 
     h1 {
-        font-size: 58px;
-        max-width: 700px; 
+        font-size: 58px; 
     }
 
-    h3{
-        font-size: 48;
-        max-width: 700px;
+    p{  
+        font-family: "Gotham-Normal";
+        font-size: 44px;
     }
 
     header{
@@ -501,10 +500,26 @@ img {
         column-gap: 10px;
     }
 
+    .portada-mobile h3{
+        font-size: 48;
+        max-width: 700px;
+    }
+
+    .portada-mobile h1{
+        max-width: 700px;
+    }
+
+    .item-portada{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
     .cta{
         align-self: center;
         padding-left: 110px;
         padding-right: 110px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 
     #imagen-libro-portada-mobile{
@@ -512,7 +527,28 @@ img {
         margin-bottom: 0px;
     }
 
-    
+    #g-texto{
+        margin-top: 120px;
+    }
+
+    .descripcion-mobile{
+        grid-area: descripcion-area;
+
+        background-color: black;
+        color: white;
+
+        padding-left: 13.66%;
+        padding-right: 13.66%;
+        padding-top: 200px;
+        padding-bottom: 180px;
+
+    }
+
+    #estrellas-mobile{
+        width: 500px;
+        margin-top: 80px;
+        padding-left: 30%;
+    }
 }
 
 @media screen and (min-width: 1001px) {
