@@ -451,9 +451,9 @@ img {
         "header-area header-area header-area header-area header-area header-area header-area header-area header-area header-area header-area header-area"
         "portada-texto-area portada-texto-area portada-texto-area portada-texto-area portada-texto-area portada-texto-area portada-texto-area portada-texto-area portada-texto-area portada-texto-area portada-texto-area portada-texto-area"
         "descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area descripcion-area"
-        ". autores-area autores-area autores-area autores-area autores-area . . . . . ."
+        ". autores-area autores-area autores-area autores-area autores-area autores-area autores-area autores-area autores-area autores-area ."
         ". autores-area2 autores-area2 autores-area2 autores-area2 autores-area2 autores-area2 autores-area2 autores-area2 autores-area2 autores-area2 ."
-        ". reseñas-titulo-area reseñas-titulo-area reseñas-titulo-area reseñas-titulo-area reseñas-titulo-area . . . . . ."
+        "reseñas-titulo-area reseñas-titulo-area reseñas-titulo-area reseñas-titulo-area reseñas-titulo-area reseñas-titulo-area reseñas-titulo-area reseñas-titulo-area reseñas-titulo-area reseñas-titulo-area reseñas-titulo-area reseñas-titulo-area"
         ". reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area ."
         ". form-final-t form-final-t form-final-t form-final-t form-final-t form-final-t form-final-t form-final-t form-final-t form-final-t ."
         ".  contenido-form-final contenido-form-final contenido-form-final contenido-form-final contenido-form-final contenido-form-final contenido-form-final contenido-form-final contenido-form-final contenido-form-final ."
@@ -548,6 +548,37 @@ img {
         width: 500px;
         margin-top: 80px;
         padding-left: 30%;
+    }
+
+    .autores-titulo{
+        justify-self: center;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .contenedor-sobre-autores{
+        padding-left: 8.33%;
+        padding-right: 8.22%;
+        padding-top: 0px;
+        padding-bottom: 100px;
+    }
+
+    .t-reseñas-mobile{
+        grid-area: reseñas-titulo-area;
+        background-color: black;
+        color: white;
+
+        align-items: center;
+        justify-items: center;
+        font-weight: 10px;
+
+        padding-bottom: 100px;
+    }
+
+    #ptexto{
+        justify-self: center;
+        text-align: center;
+        font-weight: normal;
     }
 }
 
