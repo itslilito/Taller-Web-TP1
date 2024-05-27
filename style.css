@@ -457,6 +457,7 @@ img {
         ". reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area reseñas-area ."
         ". form-final-t form-final-t form-final-t form-final-t form-final-t form-final-t form-final-t form-final-t form-final-t form-final-t ."
         ".  contenido-form-final contenido-form-final contenido-form-final contenido-form-final contenido-form-final contenido-form-final contenido-form-final contenido-form-final contenido-form-final contenido-form-final ."
+        ". cta-m-f cta-m-f cta-m-f cta-m-f cta-m-f cta-m-f cta-m-f cta-m-f cta-m-f cta-m-f ."
         "footer-area footer-area footer-area footer-area footer-area footer-area footer-area footer-area footer-area footer-area footer-area footer-area"
         ;
     }
@@ -557,8 +558,8 @@ img {
     }
 
     .contenedor-sobre-autores{
-        padding-left: 8.33%;
-        padding-right: 8.22%;
+        padding-left: 6%;
+        padding-right: 8.33%;
         padding-top: 0px;
         padding-bottom: 100px;
     }
@@ -579,6 +580,22 @@ img {
         justify-self: center;
         text-align: center;
         font-weight: normal;
+    }
+
+    .contenido-form-final{
+        flex-direction: column;
+        align-items: left;
+        justify-items: center;
+    }
+
+    #cta-m-f{
+        grid-area: cta-m-f;
+    
+    }
+
+    #mail-p-principal{
+        padding: 0;
+        font-size: 64px;
     }
 }
 
